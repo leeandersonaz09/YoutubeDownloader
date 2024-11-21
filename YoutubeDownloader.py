@@ -32,7 +32,7 @@ def baixar_mp3_yt_dlp(video_url, pasta_destino, janela_loading, label_status):
             ffmpeg_location = ffmpeg_path
         else:
             # Caminho alternativo ou erro, se necessário
-            ffmpeg_location = r"C:\Program Files (x86)\YoutubeVideoDownloader\ffmpeg\bin"
+            ffmpeg_location = r"C:\Program Files (x86)\YoutubeVideoDownloader\ffmpeg\bin" # MUDE ESSA LINHA SE QUSIER USAR O SCRIPT PARA O DISCO C OU QUALQUER DIRETÓRIO QUE TIVER EXTRAIDO A PASTA DO FFMPEG
 
         ydl_opts = {
             'format': 'bestaudio/best',
