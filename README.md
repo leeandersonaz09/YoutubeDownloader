@@ -13,3 +13,5 @@ Caso queira criar um instalador deixe como está e baixe o inno setup compiler e
 Source: "C:\ffmpeg\*" defina o diretorio onde vc extraiu o ffmpeg
 # Caminho do Icon
 SetupIconFile=C:\Users\Lee Brasil\Desktop\Python\seu_icone.ico   
+
+ pyinstaller --onefile --icon="C:/Users/Lee Brasil/Desktop/Python/seu_icone.ico" --noconsole youtube-mp3.py
